@@ -1,8 +1,8 @@
 .form {
   display: flex;
   flex-direction: column;
-  background: #606c88;
-  background: -webkit-linear-gradient(to right, #3f4c6b, #606c88);
+  background: #668de7;
+  background: -webkit-linear-gradient(to right, #4fc062, #ca8e7c);
   background: linear-gradient(to right, #3f4c6b, #606c88);
   padding: 20px;
   border-radius: 10px;
@@ -73,7 +73,7 @@
   width: 40rem;
   height: 15rem;  
   overflow-y: scroll;
-  background: linear-gradient(90deg, #003b76, #567180);
+  background: linear-gradient(90deg, #003776, #567180);
   margin-bottom: 1rem;
   border-radius: 10px;
 }

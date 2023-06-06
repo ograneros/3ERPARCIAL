@@ -23,7 +23,7 @@ export const ChatClient = () => {
 
   // estado para controlar la lista de mensajes
   const [listMessages, setListMessages] = useState([{
-      body: "Welcome to the chat room",
+      body: "Bienvenido Usuario",
       user: "Machine",
     }]);
 
@@ -63,8 +63,8 @@ export const ChatClient = () => {
         }
       </div>              
     <form onSubmit={handleSubmit} className="form">
-      <span className="title">Chat-io</span>
-      <p className="description">Type your message.</p>
+      <span className="title"></span>
+      <p className="description">Chat Tiempo Real</p>
       <div className='div-type-chat'>
         <img
           className="emoji-icon"
@@ -73,12 +73,12 @@ export const ChatClient = () => {
         {showPicker && <Picker className="prueba" onEmojiClick={onEmojiClick} />} 
         <input 
           value={message}
-          placeholder="Type your message"
+          placeholder="Ingresa tu mensaje"
           onChange={ e => setMessage(e.target.value)}          
           type="text" name="text" id="chat-message"
           className="input-style" 
         />
-        <button type="submit">Send</button>
+        <button type="submit">Enviar</button>
       </div>
     </form>    
     </>
